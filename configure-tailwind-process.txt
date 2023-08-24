@@ -6,6 +6,7 @@
     
 
 <<terminal>>
+npm init -y
 npm install -D tailwindcss
 npx tailwindcss init
 
@@ -25,8 +26,11 @@ module.exports = {
 @tailwind components;
 @tailwind utilities;
 
+<<package.json/Debug/scripts>>
+"build": "npx tailwindcss -i ./src/input.css -o ./dist/output.css --watch"
+
 <<terminal>>
-npx tailwindcss -i ./src/input.css -o ./dist/output.css --watch
+ npm run build
 
 <<src/index.html>>
 <!doctype html>
