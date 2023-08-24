@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 <<.vscode/settings.json>>
 {
     "css.validate" : false,
@@ -47,3 +48,5 @@ module.exports = {
 </body>
 </html>
 
+=======
+>>>>>>> 85dbea63515ea548b6fb9d3b1367649ff0c6084e
